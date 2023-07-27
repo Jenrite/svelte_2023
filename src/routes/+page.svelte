@@ -1,14 +1,31 @@
-<h1>Welcome to my site!!!</h1>
-<img src="https://media.tenor.com/M38huGqu3KEAAAAi/gold-cross.gif">
-<h2>LAWS OF THE LAND</h2>
-<h3>NO</h3>
-<ul>
-    <li>undue silliness</li>
-    <li>snarling hounds</li>
-    <li>scheming gnomes</li>
-    <li>plump puppies</li>
-</ul>
+<style>
+    * {text-align: center;
+  background-image: url("istockphoto-588980652-612x612.jpg");
+        color: red;
+        font-family: Helvetica;
+    }
+
+    ol{
+        text-align: center;
+        list-style-position: inside;
+    }
+</style>
+<h1>Welcome to dracula.net!!!</h1>
+<h2>RULES</h2>
+<h1>NO!</h1>
+<ol>
+    <li> Sunlight</li>
+    <li> Vampire hunters </li>
+    <li> Alexander bello </li>
+    <li> Garlic          </li>
+    <li> Wooden stakes   </li>
+    <li> Crosses         </li>
+</ol>
+
+<audio  autoplay>
+    <source src="daily_download_20151026_128.mp3" type="audio/mpeg">
+  </audio>
 <div>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Durer%2C_apocalisse%2C_12_il_mostro_marino_e_la_bestia.jpg/800px-Durer%2C_apocalisse%2C_12_il_mostro_marino_e_la_bestia.jpg">
+    <img src="https://t1.pixers.pics/img-c676e9e9/posters-count-dracula.jpg?H4sIAAAAAAAAA42PWW6FMAxFtxMkwCYDSVjA-31LQIGEV1qGKKEt6upr2qp_lSp_eJB9fC-8btlNAcawHSHBOnu_BJjmhbrcpZDnj8CwVBqLjqYLQ6RqfwtpTHtklW3LSspStbJsm7bo3h0dri69sKfjiLkDyKKO80k0SmOGcc3AsdGABpQ11isV5Gh06GOVD7d5l3zF5SmwjtujxCv-jzXQIKjBN0M7GI9yMD3neCqsfglfWCEEaVYX-sejRiz15e1I88rI7E7bB3uOjwL--PldA13B7Q5SgtFgLVhzjfrbXUqjrbUkIfBpstqrEJzhJE-N3qNTYmgEciNq-vIJWKWchIkBAAA=">
 </div>
 <a href="https://www.op.ac.nz/" target="_blank">Otago polytech</a>
