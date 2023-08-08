@@ -10,8 +10,11 @@
 
 <Header />
 
-<h1 class="secondDiv">Welcome to dracula.net</h1>
-<img src="drac.jpg" alt="Scary dracula ahh">
+<h1 class="secondDiv">Welcome to Dracula.net</h1>
+
+<div class="center2">
+<iframe width="1280px" height="720px" src="https://www.youtube.com/embed/NcBjx_eyvxc?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+</div>
 
 <Footer />
 

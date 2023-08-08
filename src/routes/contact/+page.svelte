@@ -9,7 +9,20 @@
 
 <Header />
 <h1 class="textstyle">Contact me here</h1>
-<a href="https://github.com/Jenrite" target="_blank" class="textstyle">Github</a>
-<a href="https://www.youtube.com/channel/UCLoUDPH17yCM_1eG8dbdT7Q" target="_blank" class="textstyle">Youtube</a>
-<a href="https://www.instagram.com/6mogu/" target="_blank" class="textstyle">Instagram</a>
+<a href="https://github.com/Jenrite" target="_blank">Github</a>
+<a href="https://www.youtube.com/channel/UCLoUDPH17yCM_1eG8dbdT7Q" target="_blank">Youtube</a>
+<a href="https://www.instagram.com/6mogu/" target="_blank">Instagram</a>
 <Footer />
+<style>
+h1{
+  color: black;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+a{
+  color: black;
+  font-family: Helvetica;
+
+}
+</style>

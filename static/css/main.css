@@ -24,7 +24,6 @@ div.gallerys {
   }
 
   .textstyle {
-    background-color: white;
     color: black;
     font-family: Helvetica;
 
@@ -55,3 +54,9 @@ div.gallerys {
     bottom: 0;
  }
 
+ iframe.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
