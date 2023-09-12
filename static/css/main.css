@@ -54,6 +54,25 @@ div.gallerys {
     width: 50%;
   }
 
+  .background{
+    width: 1500px;
+    height:800px;
+    background-image:url('../img/HDCASTLEBG.jpg');
+    background-size:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  h2{
+    border-radius:4px;
+    padding:15px;
+    margin:5px;
+    color:red;
+    font-family:Helvetica;
+    font-weight: bold;
+    font-size: 100px;
+  }
 
  .footerstyle {
     display: block;
@@ -78,3 +97,30 @@ div.gallerys {
     margin-right: auto;
   }
   
+  blockquote {
+    font-style:italic;
+    line-height:32px;
+    font-size:20px;
+    color:#fff;
+    background: #3F51B5;
+    margin:10px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    }
+    blockquote:before,
+    blockquote:after {
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 0;
+    color: #FBC02D;
+    }
+    blockquote:before {
+    left: -5px;
+    content: '\201C';
+    }
+    blockquote:after {
+    content: '\201D';
+    }
