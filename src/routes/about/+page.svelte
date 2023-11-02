@@ -41,13 +41,7 @@
   *{
     margin: 15px;
     padding: 0px;
-
-
-
   }
-
-
-
 </style>
 
 
