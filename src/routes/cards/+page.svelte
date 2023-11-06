@@ -9,7 +9,7 @@
 
 <Header />
 <div class="container">
-    <iframe style="pointer-events: none" width="1920" height="1080" src="https://www.youtube.com/embed/HSsqzzuGTPo?si=-EnZssOUlHeq9U5D&mute=1&autoplay=1" title="YouTube video player" frameborder="0" 
+    <iframe style="pointer-events: none" width="100%" height="100%" src="https://www.youtube.com/embed/HSsqzzuGTPo?si=-EnZssOUlHeq9U5D&mute=1&autoplay=1" title="YouTube video player" frameborder="0" 
  allowfullscreen></iframe>
     <div class="overlayText">
       <p id="topText">RAHHHHHHHHHHHHHHHHHHHHHHHH
