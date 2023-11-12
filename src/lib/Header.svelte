@@ -4,10 +4,10 @@
 <header>
         <a class="logo" href= "/">VAMPIRE.NET</a>
         <nav>
-            <ul class="nav__links">
-                <li><a href="/contact">Gallery</a></li>
-                <li><a href="/cards">Cards
-                </a></li>
+            <ul>
+                <li class="nav__links"><div>About</div></li>
+                <li class="nav__links"><a href="/cards">Cards</a></li>
+
             </ul>
         </nav>
         <a class="cta" href="/contact"><button>Contact</button></a>
@@ -34,7 +34,6 @@ li, a, button {
 }
 
 header {
-
     margin: 10px;
     display:flex;
     justify-content: space-between;
@@ -43,6 +42,7 @@ header {
     border: none;
     border-radius: 10px;
 }
+
 .logo {
     cursor: pointer;
 }
@@ -50,16 +50,21 @@ header {
     list-style: none;
 }
 
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
+ul{
+    display: inline-flex;
 }
 
-.nav__links li a {
+.nav__links {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav__links :hover {
     color: rgba(229, 75, 75 ,1)
 }
 
@@ -71,7 +76,6 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-right: 10px;
-
 }
 
 button:hover {
