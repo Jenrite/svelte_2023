@@ -11,6 +11,7 @@
   let cards = [];
 
   async function RandomCard() {
+    isLoaded = false;
     const res = await fetch(
       `${CARD_URL}subtypes=Vampire&pageSize=2&contains=imageUrl&random=true`
     );
@@ -19,6 +20,7 @@
 
     if (cards.length > 0) {
       isLoaded = true;
+      
     }
 
     console.log(cards);
@@ -102,9 +104,14 @@
   }
 
   .card {
-    display: inline-flex;
     padding: 0%;
     margin: 0%;
+  }
+  
+  .box {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
   }
 
   .card:hover {
