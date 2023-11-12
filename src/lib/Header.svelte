@@ -5,7 +5,6 @@
         <a class="logo" href= "/">VAMPIRE.NET</a>
         <nav>
             <ul class="nav__links">
-                <li><a href="/about">About</a></li>
                 <li><a href="/contact">Gallery</a></li>
                 <li><a href="/cards">Cards
                 </a></li>
