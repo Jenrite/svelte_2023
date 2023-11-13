@@ -20,9 +20,10 @@
   <div class="overlayText">
     <p id="topText">Blehehehhhh</p>
   </div>
+  
 </div>
-<Footer />
 
+<Footer />
 <style>
   .container {
     overflow: hidden;
