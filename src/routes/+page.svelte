@@ -4,7 +4,7 @@
   import Footer from "$lib/Footer.svelte";
 </script>
 
-this is my stylesheet link which pulls from my styles.css file
+<!-- this is my stylesheet link which pulls from my styles.css file -->
 <svelte:head>
   <link rel="stylesheet" href="../css/styles.css" /> 
 </svelte:head>
