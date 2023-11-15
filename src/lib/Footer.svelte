@@ -6,7 +6,7 @@
   <!-- Site footer -->
   <container>  
   <footer class="site-footer">
-      <p>lalalala</p>
+      <p>&#169 Copyright 6mogu 2023</p>
   </footer>
   </container>
   <style>
@@ -17,18 +17,14 @@
   }
 .site-footer
 {
-
+  font-family:  monospace;
+  color: #edf0f1;
   background-color: #2d333a;
-  padding:45px 0 20px;
+  padding:1vh 0 1vh;
+  margin-top: 0;
   font-size:15px;
-  width: 100%;
-  margin-top: auto;
-}
-
-.site-footer p{
-  padding: 0%;
-  margin: 0%;
-    padding-left: 10%;
+  width: 98.4vw;
+  padding-left: 0.5vw;
 }
 
 </style>

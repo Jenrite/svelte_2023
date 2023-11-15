@@ -1,0 +1,160 @@
+/* this is my stylesheet
+i have it imported to all of my pages and it contains all the nessisary info to make my site
+good-looking */
+
+/* this section is my base styles, what i used for my homepage and want to carry on
+to the rest of my pages @import url is used to take a font from google and use it for styling */
+h1 {
+    font-family: monospace;
+    font-size: 7em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(229, 75, 75 ,1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: rgba(229, 75, 75 ,0.8);
+}
+
+li, a, button, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.container {
+    overflow: hidden;
+    background-image: linear-gradient(#353d45,#353d45,#353d45,#353d45,#353d45, #2d333a);
+    
+}
+
+  @import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+
+  .video {
+    width: 100% !important;
+    aspect-ratio: 16 / 9;
+  }
+
+  .wrapper {
+  z-index: 1;
+  position: absolute;
+  left: 12%;
+  top: 42%;
+}
+/* this code is for my typing demo, i took it from codepen and customised it with a gradient */
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 7em;
+  background: -webkit-linear-gradient(#b11c1c, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+body {
+    margin: 0;
+  }
+
+  .button-container {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* this is the code for my loader, i took it from codepen and adjusted it to fit with my button
+  by shrinking it */
+
+  .loader {
+    display: block;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    animation: spin 7s ease-in-out;
+    animation-iteration-count: infinite;
+    transition-duration: 0.1s;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+      border-bottom: solid 3px transparent;
+      border-top: solid 3px transparent;
+    }
+    50% {
+      transform: rotate(1800deg);
+      border: 3px solid white;
+      border-left: solid 3px transparent;
+      border-right: solid 3px transparent;
+    }
+    100% {
+      transform: rotate(0deg);
+      border-bottom: solid 3px transparent;
+      border-top: solid 3px transparent;
+    }
+  }
+
+  /* this is the styling for my cards i used a grid to display them together */
+  .container-cards {
+    display: flex;
+    min-height: 963px;
+    justify-content: center;
+    
+    
+  }
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .box {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+  }
+/* this is how my cards pop up smoothly when you hover over them
+it was suprisingly simple to make for how nice it looks */
+  .card:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+  }
