@@ -13,7 +13,7 @@
   async function RandomCard() {
     isLoaded = false;
     const res = await fetch(
-      `${CARD_URL}subtypes=Vampire&pageSize=2&contains=imageUrl&random=true`
+      `${CARD_URL}subtypes=Vampire&pageSize=9&contains=imageUrl&random=true`
     );
     const json = await res.json();
     cards = json.cards;
@@ -94,7 +94,9 @@
 
   .container {
     display: flex;
+    min-height: 963px;
     justify-content: center;
+    
   }
 
   .grid {

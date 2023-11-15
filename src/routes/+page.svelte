@@ -17,9 +17,11 @@
     frameborder="0"
     allowfullscreen
   />
-  <div class="overlayText">
-    <p id="topText">Blehehehhhh</p>
-  </div>
+  <div class="wrapper">
+    <div class="typing-demo">
+      Welcome to vampire.net
+    </div>
+</div>
   
 </div>
 
@@ -37,17 +39,37 @@
     aspect-ratio: 16 / 9;
     /*height: 100vh   !important;*/
   }
-  .overlayText {
-    position: absolute;
-    top: 42%;
-    left: 10%;
-    z-index: 1;
-  }
 
-  #topText {
-    font-family: "Inter Tight", sans-serif;
-    color: rgba(255, 0, 0, 0.527);
-    font-size: 700%;
-    align-self: center;
+  .wrapper {
+  /*This part is important for centering*/
+  z-index: 1;
+  position: absolute;
+  left: 12%;
+  top: 42%;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 900%;
+  background: -webkit-linear-gradient(#b11c1c, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typing {
+  from {
+    width: 0
   }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 </style>
